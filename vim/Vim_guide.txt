@@ -1,0 +1,26 @@
+v:visual block
+
+e:別のファイルを読み込む
+
+検索
+:s/word
+n: 下方向に検索
+N;上方向に検索
+*,#:今カーソルがある位置の単語を探す
+
+矩形単位で編集
+Ctrl+vで矩形Visual mode
+shift+Iでinsert modeに
+文字編集
+esc
+
+置換
+:s/word/new word
+
+補完
+Ctrl+n
+
+その他
+set number: 行番号を表示
+;syntax on(off): 色分け
+
